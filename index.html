@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- MI ESTILO -->
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <!-- FORMULARIO -->
+    <h1>Formulario de registro</h1>
+    <form class="form-register" onsubmit="return validar();">
+       <div class="contenedor-inputs">
+           <!-- NOMBRE -->
+           <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="inputcss">
+           <!-- APELLIDOS -->
+           <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" class="inputcss">
+           <!-- CORREO -->
+           <input type="email" id="correo" name="correo" placeholder="Correo" class="inputcss">
+           <!-- USUARIO -->
+           <input type="text" id="usuario" name="usuario" placeholder="Usuario" class="inputcss">
+           <!-- PASSWORD -->
+           <input type="password" id="pass" name="pass" placeholder="Contraseña" class="inputcss">
+           <!-- TELEFONO -->
+           <input type="text" id="telefono" name="telefono" placeholder="Teléfono (+56 9)" class="inputcss">
+           <!-- BOTON ENVIAR -->
+           <input type="submit" value="Registrar" class="btn-enviar">
+       </div>
+    </form>
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="assets/script.js"></script>
+</body>
+</html>
